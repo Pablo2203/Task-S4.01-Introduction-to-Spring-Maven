@@ -1,0 +1,44 @@
+{
+  "projectName": "S04T01N01",
+  "buildTool": "Maven",
+  "description": "Aplicación Spring Boot que expone endpoints para saludar.",
+  "port": 9000,
+  "javaVersion": "17",
+  "dependencies": [
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-web",
+      "version": "3.5.0"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-test",
+      "scope": "test"
+    }
+  ],
+  "endpoints": [
+    {
+      "path": "/HelloWorld",
+      "method": "GET",
+      "parameters": {
+        "name": {
+          "type": "String",
+          "required": false,
+          "defaultValue": "Unknown"
+        }
+      },
+      "exampleResponse": "Hello Pablo! \\nYou are running a Maven project"
+    },
+    {
+      "path": "/HelloWorld2/{name}",
+      "method": "GET",
+      "parameters": {
+        "name": {
+          "type": "String",
+          "required": true
+        }
+      },
+      "exampleResponse": "Hello Pablo! \\nYou are running a Maven project"
+    }
+  ]
+}
