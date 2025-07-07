@@ -14,7 +14,7 @@ This project is a hands-on exercise for getting familiar with **Spring Boot** an
 
 ## 💻 Technologies Used
 
-- **Java** (Minimum version 11)
+- **Java** (Minimum version 21)
 - **Spring Boot** (Latest stable version)
 - **Maven**
 
@@ -28,7 +28,7 @@ This project is a hands-on exercise for getting familiar with **Spring Boot** an
 
 Before starting, make sure you have the following installed and set up:
 
-- **Java Development Kit (JDK)** version 11 or higher.
+- **Java Development Kit (JDK)** version 21 or higher.
 - **Maven** (for project management and build).
 - Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse.
 
